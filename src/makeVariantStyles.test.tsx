@@ -1,5 +1,7 @@
 import { describe, it, expect, vi } from 'vitest';
 import { render, screen } from '@testing-library/react';
+import '@testing-library/jest-dom';
+
 import { makeVariantStyles } from './makeVariantStyles.styles';
 
 vi.mock('@griffel/react', () => ({

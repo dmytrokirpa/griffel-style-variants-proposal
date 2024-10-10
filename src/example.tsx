@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { makeStyles, mergeClasses } from '@fluentui/react-components';
 import { makeVariantStyles, VariantProps } from './makeVariantStyles.styles';
 
